@@ -47,9 +47,12 @@ img {
   width: 1200px;
 }
 
-.container.menu {
+.menu {
   display: flex;
   align-items: center;
+}
+
+.header {
   border: 1px solid var(--header-border);
 }
 
