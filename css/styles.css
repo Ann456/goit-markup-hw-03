@@ -193,12 +193,13 @@ a {
 
 /*--Особенности--*/
 
-.need_to_hide {
+.visually-hidden {
   /* Скрыли h2 на главной и в портфолио */
-  visibility: hidden;
-  margin: 0;
-  padding: 0;
-  font-size: 0;
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
 }
 .section.features {
   padding-top: 94px;
