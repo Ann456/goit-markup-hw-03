@@ -239,6 +239,7 @@ a {
 /*--Чем мы занимаемся--*/
 
 .section.doing {
+  padding-top: 0;
   padding-bottom: 94px;
 }
 
